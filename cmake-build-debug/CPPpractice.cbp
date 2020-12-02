@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/CPPpractice/Practice.cpp">
+			<Option target="CPPpractice"/>
+		</Unit>
+		<Unit filename="D:/CPPpractice/Practice.h">
+			<Option target="CPPpractice"/>
+		</Unit>
 		<Unit filename="D:/CPPpractice/main.cpp">
 			<Option target="CPPpractice"/>
 		</Unit>

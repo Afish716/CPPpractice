@@ -142,6 +142,33 @@ CPPpractice/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/build
 .PHONY : CPPpractice/fast
 
+Practice.obj: Practice.cpp.obj
+
+.PHONY : Practice.obj
+
+# target to build an object file
+Practice.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/Practice.cpp.obj
+.PHONY : Practice.cpp.obj
+
+Practice.i: Practice.cpp.i
+
+.PHONY : Practice.i
+
+# target to preprocess a source file
+Practice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/Practice.cpp.i
+.PHONY : Practice.cpp.i
+
+Practice.s: Practice.cpp.s
+
+.PHONY : Practice.s
+
+# target to generate assembly for a file
+Practice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/Practice.cpp.s
+.PHONY : Practice.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CPPpractice
+	@echo ... Practice.obj
+	@echo ... Practice.i
+	@echo ... Practice.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
