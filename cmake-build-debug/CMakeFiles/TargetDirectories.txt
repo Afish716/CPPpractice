@@ -1,0 +1,3 @@
+D:/CPPpractice/cmake-build-debug/CMakeFiles/CPPpractice.dir
+D:/CPPpractice/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CPPpractice/cmake-build-debug/CMakeFiles/rebuild_cache.dir

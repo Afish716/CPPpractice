@@ -1,0 +1,3 @@
+"D:\program file\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CPPpractice.dir/objects.a
+D:\mingw\mingw-w64_64bit\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe cr CMakeFiles\CPPpractice.dir/objects.a @CMakeFiles\CPPpractice.dir\objects1.rsp
+D:\mingw\mingw-w64_64bit\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\CPPpractice.dir/objects.a -Wl,--no-whole-archive  -o CPPpractice.exe -Wl,--out-implib,libCPPpractice.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CPPpractice.dir\linklibs.rsp
