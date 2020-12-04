@@ -19,3 +19,21 @@ int practice6_10(int* x1,int* x2){
     *x1=*x2;
     *x2=temp;
 }
+
+bool practice6_17_1(const string& string1){
+    for (auto c:string1) {
+        if (isupper(c)){
+            return true;
+        } else{
+            return false;
+        }
+    }
+};
+
+string practice6_17_2(string& string1){
+    for (auto& c:string1) {
+        if (isupper(c)){
+            c=tolower(c);
+        }
+    }
+}

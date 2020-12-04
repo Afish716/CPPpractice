@@ -13,3 +13,5 @@ using namespace std;
 
 int practice6_7();
 int practice6_10(int* x1,int* x2);
+bool practice6_17_1(const string& string1);
+string practice6_17_2(string& string1);
