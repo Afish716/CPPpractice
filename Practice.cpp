@@ -36,3 +36,41 @@ int practice3_5_1(){
           }
       }
 }
+
+int practice3_6(){
+    string string1;
+    cin>>string1;
+    for (int i = 0; i <string1.size() ; ++i) {
+        string1[i]='X';
+    }
+    cout<<string1;
+}
+
+int practice3_6_1(){
+    string s1;
+    cin>>s1;
+    for (auto &c:s1) {
+        c='X';
+    }
+    cout<<s1;
+};
+
+int practice3_6_2(){
+    string s1;
+    cin>>s1;
+    for (auto c:s1) {
+        c='X';
+    }
+    cout<<s1;
+};//此种写法有误
+
+int practice3_10(){
+    string string1,string2;
+    cin>>string1;
+    for (auto c:string1){
+        if (!ispunct(c)){
+            string2.append(1,c);
+        }
+    }
+    cout<<string2;
+}
