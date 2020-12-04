@@ -6,11 +6,21 @@
 
 #IncludeRegexTransform: 
 
-D:/CPPpractice/Practice.cpp
-Practice.h
-D:/CPPpractice/Practice.h
+D:/CPPpractice/Practice3.h
+iostream
+-
+string
+-
+queue
+-
+cctype
+-
 
-D:/CPPpractice/Practice.h
+D:/CPPpractice/Practice6.cpp
+Practice6.h
+D:/CPPpractice/Practice6.h
+
+D:/CPPpractice/Practice6.h
 iostream
 -
 string
@@ -21,8 +31,8 @@ cctype
 -
 
 D:/CPPpractice/main.cpp
-iostream
--
-Practice.h
-D:/CPPpractice/Practice.h
+Practice3.h
+D:/CPPpractice/Practice3.h
+Practice6.h
+D:/CPPpractice/Practice6.h
 

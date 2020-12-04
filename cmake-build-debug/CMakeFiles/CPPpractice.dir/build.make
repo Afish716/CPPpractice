@@ -89,34 +89,49 @@ CMakeFiles/CPPpractice.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPpractice.dir/main.cpp.s"
 	D:\mingw\mingw-w64_64bit\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPPpractice\main.cpp -o CMakeFiles\CPPpractice.dir\main.cpp.s
 
-CMakeFiles/CPPpractice.dir/Practice.cpp.obj: CMakeFiles/CPPpractice.dir/flags.make
-CMakeFiles/CPPpractice.dir/Practice.cpp.obj: ../Practice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPPpractice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPPpractice.dir/Practice.cpp.obj"
-	D:\mingw\mingw-w64_64bit\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPPpractice.dir\Practice.cpp.obj -c D:\CPPpractice\Practice.cpp
+CMakeFiles/CPPpractice.dir/Practice3.cpp.obj: CMakeFiles/CPPpractice.dir/flags.make
+CMakeFiles/CPPpractice.dir/Practice3.cpp.obj: ../Practice3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPPpractice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPPpractice.dir/Practice3.cpp.obj"
+	D:\mingw\mingw-w64_64bit\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPPpractice.dir\Practice3.cpp.obj -c D:\CPPpractice\Practice3.cpp
 
-CMakeFiles/CPPpractice.dir/Practice.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPpractice.dir/Practice.cpp.i"
-	D:\mingw\mingw-w64_64bit\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPPpractice\Practice.cpp > CMakeFiles\CPPpractice.dir\Practice.cpp.i
+CMakeFiles/CPPpractice.dir/Practice3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPpractice.dir/Practice3.cpp.i"
+	D:\mingw\mingw-w64_64bit\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPPpractice\Practice3.cpp > CMakeFiles\CPPpractice.dir\Practice3.cpp.i
 
-CMakeFiles/CPPpractice.dir/Practice.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPpractice.dir/Practice.cpp.s"
-	D:\mingw\mingw-w64_64bit\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPPpractice\Practice.cpp -o CMakeFiles\CPPpractice.dir\Practice.cpp.s
+CMakeFiles/CPPpractice.dir/Practice3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPpractice.dir/Practice3.cpp.s"
+	D:\mingw\mingw-w64_64bit\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPPpractice\Practice3.cpp -o CMakeFiles\CPPpractice.dir\Practice3.cpp.s
+
+CMakeFiles/CPPpractice.dir/Practice6.cpp.obj: CMakeFiles/CPPpractice.dir/flags.make
+CMakeFiles/CPPpractice.dir/Practice6.cpp.obj: ../Practice6.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CPPpractice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPPpractice.dir/Practice6.cpp.obj"
+	D:\mingw\mingw-w64_64bit\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPPpractice.dir\Practice6.cpp.obj -c D:\CPPpractice\Practice6.cpp
+
+CMakeFiles/CPPpractice.dir/Practice6.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPpractice.dir/Practice6.cpp.i"
+	D:\mingw\mingw-w64_64bit\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CPPpractice\Practice6.cpp > CMakeFiles\CPPpractice.dir\Practice6.cpp.i
+
+CMakeFiles/CPPpractice.dir/Practice6.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPpractice.dir/Practice6.cpp.s"
+	D:\mingw\mingw-w64_64bit\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CPPpractice\Practice6.cpp -o CMakeFiles\CPPpractice.dir\Practice6.cpp.s
 
 # Object files for target CPPpractice
 CPPpractice_OBJECTS = \
 "CMakeFiles/CPPpractice.dir/main.cpp.obj" \
-"CMakeFiles/CPPpractice.dir/Practice.cpp.obj"
+"CMakeFiles/CPPpractice.dir/Practice3.cpp.obj" \
+"CMakeFiles/CPPpractice.dir/Practice6.cpp.obj"
 
 # External object files for target CPPpractice
 CPPpractice_EXTERNAL_OBJECTS =
 
 CPPpractice.exe: CMakeFiles/CPPpractice.dir/main.cpp.obj
-CPPpractice.exe: CMakeFiles/CPPpractice.dir/Practice.cpp.obj
+CPPpractice.exe: CMakeFiles/CPPpractice.dir/Practice3.cpp.obj
+CPPpractice.exe: CMakeFiles/CPPpractice.dir/Practice6.cpp.obj
 CPPpractice.exe: CMakeFiles/CPPpractice.dir/build.make
 CPPpractice.exe: CMakeFiles/CPPpractice.dir/linklibs.rsp
 CPPpractice.exe: CMakeFiles/CPPpractice.dir/objects1.rsp
 CPPpractice.exe: CMakeFiles/CPPpractice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CPPpractice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CPPpractice.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CPPpractice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CPPpractice.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CPPpractice.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

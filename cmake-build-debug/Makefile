@@ -142,32 +142,59 @@ CPPpractice/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/build
 .PHONY : CPPpractice/fast
 
-Practice.obj: Practice.cpp.obj
+Practice3.obj: Practice3.cpp.obj
 
-.PHONY : Practice.obj
+.PHONY : Practice3.obj
 
 # target to build an object file
-Practice.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/Practice.cpp.obj
-.PHONY : Practice.cpp.obj
+Practice3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/Practice3.cpp.obj
+.PHONY : Practice3.cpp.obj
 
-Practice.i: Practice.cpp.i
+Practice3.i: Practice3.cpp.i
 
-.PHONY : Practice.i
+.PHONY : Practice3.i
 
 # target to preprocess a source file
-Practice.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/Practice.cpp.i
-.PHONY : Practice.cpp.i
+Practice3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/Practice3.cpp.i
+.PHONY : Practice3.cpp.i
 
-Practice.s: Practice.cpp.s
+Practice3.s: Practice3.cpp.s
 
-.PHONY : Practice.s
+.PHONY : Practice3.s
 
 # target to generate assembly for a file
-Practice.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/Practice.cpp.s
-.PHONY : Practice.cpp.s
+Practice3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/Practice3.cpp.s
+.PHONY : Practice3.cpp.s
+
+Practice6.obj: Practice6.cpp.obj
+
+.PHONY : Practice6.obj
+
+# target to build an object file
+Practice6.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/Practice6.cpp.obj
+.PHONY : Practice6.cpp.obj
+
+Practice6.i: Practice6.cpp.i
+
+.PHONY : Practice6.i
+
+# target to preprocess a source file
+Practice6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/Practice6.cpp.i
+.PHONY : Practice6.cpp.i
+
+Practice6.s: Practice6.cpp.s
+
+.PHONY : Practice6.s
+
+# target to generate assembly for a file
+Practice6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/Practice6.cpp.s
+.PHONY : Practice6.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -205,9 +232,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CPPpractice
-	@echo ... Practice.obj
-	@echo ... Practice.i
-	@echo ... Practice.s
+	@echo ... Practice3.obj
+	@echo ... Practice3.i
+	@echo ... Practice3.s
+	@echo ... Practice6.obj
+	@echo ... Practice6.i
+	@echo ... Practice6.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

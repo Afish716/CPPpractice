@@ -2,7 +2,7 @@
 // Created by Guoheng on 2020/12/2.
 //
 
-#include "Practice.h"
+#include "Practice3.h"
 //输入“000”结束输入
 int practice3_5(){
        string input,result;
