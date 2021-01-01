@@ -196,6 +196,33 @@ Practice6.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/Practice6.cpp.s
 .PHONY : Practice6.cpp.s
 
+inheritanceAlgorithm.obj: inheritanceAlgorithm.cpp.obj
+
+.PHONY : inheritanceAlgorithm.obj
+
+# target to build an object file
+inheritanceAlgorithm.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/inheritanceAlgorithm.cpp.obj
+.PHONY : inheritanceAlgorithm.cpp.obj
+
+inheritanceAlgorithm.i: inheritanceAlgorithm.cpp.i
+
+.PHONY : inheritanceAlgorithm.i
+
+# target to preprocess a source file
+inheritanceAlgorithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/inheritanceAlgorithm.cpp.i
+.PHONY : inheritanceAlgorithm.cpp.i
+
+inheritanceAlgorithm.s: inheritanceAlgorithm.cpp.s
+
+.PHONY : inheritanceAlgorithm.s
+
+# target to generate assembly for a file
+inheritanceAlgorithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/inheritanceAlgorithm.cpp.s
+.PHONY : inheritanceAlgorithm.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -238,6 +265,9 @@ help:
 	@echo ... Practice6.obj
 	@echo ... Practice6.i
 	@echo ... Practice6.s
+	@echo ... inheritanceAlgorithm.obj
+	@echo ... inheritanceAlgorithm.i
+	@echo ... inheritanceAlgorithm.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

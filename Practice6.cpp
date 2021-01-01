@@ -59,3 +59,8 @@ int practice6_33(const vector<string>& v1,int x){
         practice6_33(v1,count);
     }
 }//const表面我不希望改变vector里面的值 &表示不希望牺牲效率来传入拷贝
+
+string (&practice6_36_1())[10]{
+
+}
+
