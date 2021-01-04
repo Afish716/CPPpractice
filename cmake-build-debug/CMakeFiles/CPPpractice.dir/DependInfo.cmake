@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/CPPpractice/Practice3.cpp" "D:/CPPpractice/cmake-build-debug/CMakeFiles/CPPpractice.dir/Practice3.cpp.obj"
   "D:/CPPpractice/Practice6.cpp" "D:/CPPpractice/cmake-build-debug/CMakeFiles/CPPpractice.dir/Practice6.cpp.obj"
+  "D:/CPPpractice/TestDemo.cpp" "D:/CPPpractice/cmake-build-debug/CMakeFiles/CPPpractice.dir/TestDemo.cpp.obj"
   "D:/CPPpractice/inheritanceAlgorithm.cpp" "D:/CPPpractice/cmake-build-debug/CMakeFiles/CPPpractice.dir/inheritanceAlgorithm.cpp.obj"
   "D:/CPPpractice/main.cpp" "D:/CPPpractice/cmake-build-debug/CMakeFiles/CPPpractice.dir/main.cpp.obj"
   )

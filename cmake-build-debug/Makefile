@@ -196,6 +196,33 @@ Practice6.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/Practice6.cpp.s
 .PHONY : Practice6.cpp.s
 
+TestDemo.obj: TestDemo.cpp.obj
+
+.PHONY : TestDemo.obj
+
+# target to build an object file
+TestDemo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/TestDemo.cpp.obj
+.PHONY : TestDemo.cpp.obj
+
+TestDemo.i: TestDemo.cpp.i
+
+.PHONY : TestDemo.i
+
+# target to preprocess a source file
+TestDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/TestDemo.cpp.i
+.PHONY : TestDemo.cpp.i
+
+TestDemo.s: TestDemo.cpp.s
+
+.PHONY : TestDemo.s
+
+# target to generate assembly for a file
+TestDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPpractice.dir\build.make CMakeFiles/CPPpractice.dir/TestDemo.cpp.s
+.PHONY : TestDemo.cpp.s
+
 inheritanceAlgorithm.obj: inheritanceAlgorithm.cpp.obj
 
 .PHONY : inheritanceAlgorithm.obj
@@ -265,6 +292,9 @@ help:
 	@echo ... Practice6.obj
 	@echo ... Practice6.i
 	@echo ... Practice6.s
+	@echo ... TestDemo.obj
+	@echo ... TestDemo.i
+	@echo ... TestDemo.s
 	@echo ... inheritanceAlgorithm.obj
 	@echo ... inheritanceAlgorithm.i
 	@echo ... inheritanceAlgorithm.s

@@ -92,6 +92,12 @@
 		<Unit filename="D:/CPPpractice/Practice6.h">
 			<Option target="CPPpractice"/>
 		</Unit>
+		<Unit filename="D:/CPPpractice/TestDemo.cpp">
+			<Option target="CPPpractice"/>
+		</Unit>
+		<Unit filename="D:/CPPpractice/TestDemo.h">
+			<Option target="CPPpractice"/>
+		</Unit>
 		<Unit filename="D:/CPPpractice/inheritanceAlgorithm.cpp">
 			<Option target="CPPpractice"/>
 		</Unit>

@@ -1,18 +1,14 @@
 #include <iostream>
 #include "inheritanceAlgorithm.h"
 #include <vector>
+#include "TestDemo.h"
 using std::cout;
 using std::vector;
 int main(){
-    vector<double> v1;
-    getVector(v1);
-    int x=judge(v1);
-    for (int i = 0; i <1000 ; ++i) {
-        mutation(v1,x);
-        x=judge(v1);
+   int *test=pointerDemo();
+    for (int i = 0; i <10 ; ++i) {
+        cout<<test[i];
     }
-    printf("%f\n",v1[x]);
-    printf("%f",function(v1[x]));
 }
 
 //程序完

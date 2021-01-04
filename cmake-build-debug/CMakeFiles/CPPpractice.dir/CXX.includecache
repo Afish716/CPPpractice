@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/CPPpractice/inheritanceAlgorithm.h
-vector
--
+D:/CPPpractice/TestDemo.cpp
+TestDemo.h
+D:/CPPpractice/TestDemo.h
 
-D:/CPPpractice/main.cpp
-iostream
--
-inheritanceAlgorithm.h
-D:/CPPpractice/inheritanceAlgorithm.h
-vector
--
+D:/CPPpractice/TestDemo.h
 
